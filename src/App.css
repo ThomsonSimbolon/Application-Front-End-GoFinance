@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.go-finance {
+  background: linear-gradient(
+    180deg,
+    #0575e6 0%,
+    #02298a 84.79%,
+    #021b79 100%
+  ) !important;
+}
+
+.btn {
+  background-color: #0575e6 !important;
+}
+
+.btn:hover {
+  background-color: #0266c9 !important;
+}
+
+.nav {
+  background-color: #0575e6 !important;
+}
+
+.go-finance {
+  position: relative;
+  overflow: hidden;
+}
+
+.go-finance::before {
+  content: "";
+  position: absolute;
+  bottom: -250px;
+  /* top: 480px; */
+  left: -200px;
+  width: 450px;
+  height: 450px;
+  border: 1px solid #0575e6;
+  border-radius: 100%;
+}
+.go-finance::after {
+  content: "";
+  position: absolute;
+  bottom: -280px;
+  /* top: 516px; */
+  left: -128px;
+  width: 450px;
+  height: 450px;
+  border: 1px solid #0575e6;
+  border-radius: 100%;
+}
+
+/* Media Query max-width: 768px */
+@media screen and (max-width: 768px) {
+  .go-finance::before,
+  .go-finance::after {
+    display: none;
+  }
+}
