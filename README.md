@@ -2,14 +2,14 @@
 
 --> Ikuti langkah-langkah di bawah ini untuk mengatur dan menjalankan aplikasi GoFinance Front-End
 
-1. git clone <URL_REPOSITORY>
+1. git clone "https://github.com/ThomsonSimbolon/Application-Front-End-GoFinance.git"
 2. cd test-frontend
 3. npm install
 4. npm run dev
 
 --> Ikuti langkah-langkah di bawah ini untuk mengatur dan menjalankan aplikasi GoFinance Back-End
 
-1. git clone <URL_REPOSITORY>
+1. git clone "https://github.com/ThomsonSimbolon/Application-Back-End-GoFinance.git"
 2. cd test-backend
 3. npm init -y
 4. npm install json-server
